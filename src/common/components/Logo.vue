@@ -62,7 +62,7 @@ export default {
     },
 
     logoText() {
-      return this.shouldCustomize ? this.name : '码如云';
+      return this.shouldCustomize ? this.name : '国脉资产';
     },
   },
   methods: {

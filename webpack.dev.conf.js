@@ -22,7 +22,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         port: 80,//80 endpoint
         proxy: {
             '/': {
-                target: 'http://localhost:8080',
+                target: 'http://172.29.7.126:8080',
                 bypass: function (req, res, proxyOptions) {
                     if (req.headers.host === 'console.local.mryqr.com') {
                         return '/console-index.html';
@@ -35,7 +35,7 @@ const webpackConfig = merge(baseWebpackConfig, {
             },
         },
         hot: true,
-        host: 'console.local.mryqr.com'
+        host: '0.0.0.0'
     },
     module: {
         rules: [

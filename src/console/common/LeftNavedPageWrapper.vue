@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import mryLogo from '@/common/static/mry.svg';
+import mryLogo from '@/common/static/mry.png';
 import {mapGetters} from 'vuex';
 import eventBus from '@/common/utils/event-bus';
 

@@ -170,7 +170,7 @@
     </div>
 
     <CreatePageDialog :show.sync="showCreatePageDialog"></CreatePageDialog>
-    <IdentificationDialog v-if="!isMobileIdentified" :show.sync="identificationDialogVisible"></IdentificationDialog>
+    <!--IdentificationDialog v-if="!isMobileIdentified" :show.sync="identificationDialogVisible"></IdentificationDialog-->
   </LeftNavedPageWrapper>
 </template>
 

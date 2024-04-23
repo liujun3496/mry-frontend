@@ -17,7 +17,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         disableHostCheck: true,
         historyApiFallback: true,
         inline: true,//do not use iframe for the page, true is default
-        open: 'google chrome',//open browser after dev server starts
+        //open: 'google chrome',//open browser after dev server starts
         openPage: '',
         port: 80,//80 endpoint
         proxy: {

@@ -24,7 +24,7 @@ function apiBaseUrl() {
 const axiosInstance = axios.create({
     baseURL: apiBaseUrl(),
     timeout: 30000,
-    withCredentials: false,
+    withCredentials: true,
     headers: {
         "Content-Type": "application/json",
     }

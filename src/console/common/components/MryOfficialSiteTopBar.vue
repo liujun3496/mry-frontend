@@ -37,7 +37,7 @@
 
 <script>
 import {mapGetters} from 'vuex';
-import mryLogo from '@/common/static/mry.svg';
+import mryLogo from '@/common/static/mry.png';
 import Profile from '@/console/common/Profile';
 
 

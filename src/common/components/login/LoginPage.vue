@@ -52,13 +52,13 @@
           <!--img :class="$style.wxLogo" :src="wxLogoUrl" alt="微信登录">&nbsp;微信扫码登录-->
         </span>
 
-        <span v-if="loginType==='MobileOrEmailLogin'"
+        <!--span v-if="loginType==='MobileOrEmailLogin'"
               :class="[$style.textButton]"
               class="underLinedLink"
               type="text"
               @click="gotoFindbackPasswordPage">
           忘记密码
-        </span>
+        </span-->
       </section>
     </section>
 

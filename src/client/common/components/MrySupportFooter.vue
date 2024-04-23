@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import mryLogo from "@/common/static/mry.svg";
+import mryLogo from "@/common/static/mry.png";
 import {goToMryOfficialWebsite} from '@/common/utils/common-utils';
 
 export default {

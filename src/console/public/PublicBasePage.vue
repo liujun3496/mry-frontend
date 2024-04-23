@@ -9,7 +9,7 @@
 import {mapActions} from 'vuex';
 import ACTIONS from '@/console/console-root-action';
 import MryOfficialSiteTopBar from '@/console/common/components/MryOfficialSiteTopBar';
-import mryLogo from "@/common/static/mry.svg";
+import mryLogo from "@/common/static/mry.png";
 import {changeFavIcon, isSubdomainCustomized, replaceCurrentUrlWithSubdomain} from "@/common/utils/common-utils";
 
 export default {

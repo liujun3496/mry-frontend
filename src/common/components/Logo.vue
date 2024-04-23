@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import mryLogo from '@/common/static/mry.svg';
+import mryLogo from '@/common/static/mry.png';
 import {imageThumbnailUrl} from '@/common/utils/image-utils';
 
 export default {

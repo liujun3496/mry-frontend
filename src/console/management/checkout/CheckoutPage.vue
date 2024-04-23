@@ -118,7 +118,7 @@
 </template>
 
 <script>
-import mryLogo from '@/common/static/mry.svg';
+import mryLogo from '@/common/static/mry.png';
 import uuid from 'short-uuid';
 import wxPayLogo from "@/common/static/wxpay.png";
 import orderApi from '@/common/api/order-api';

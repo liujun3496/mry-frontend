@@ -1,7 +1,7 @@
 <template>
   <div v-if="!shouldHideBottomMryLogo" :class="$style.wrapper" @click="gotoMryOfficialSite">
-    <img :class="$style.footerLogo" :src="mryLogoUrl" alt="码如云">
-    码如云提供技术支持
+    <img :class="$style.footerLogo" :src="mryLogoUrl" alt="国脉资产云">
+    国脉资产云提供技术支持
   </div>
 </template>
 

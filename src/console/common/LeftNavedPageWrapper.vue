@@ -12,7 +12,7 @@
       <div :class="$style.logoArea">
         <router-link :class="$style.logoLink" :to="{ name: 'my-app-list'}" title="返回我的应用">
           <div :class="$style.logoImageContainer">
-            <img :class="$style.logoImage" :src="logoImageUrl" :style="logoImageStyle" alt="码如云">
+            <img :class="$style.logoImage" :src="logoImageUrl" :style="logoImageStyle" alt="国脉资产云">
           </div>
           <div v-if="!fold" :class="$style.logoText">{{ logoText }}</div>
         </router-link>
@@ -69,7 +69,7 @@ export default {
     },
 
     logoText() {
-      let mryLogoText = '码如云';
+      let mryLogoText = '国脉资产云';
       return this.tenantLogo ? this.tenantName : mryLogoText;
     },
 

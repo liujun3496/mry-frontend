@@ -6,7 +6,7 @@
         <div :class="$style.iconText" :style="textStyle">客服</div>
       </div>
       <div :class="$style.content">
-        <img :class="$style.qrImage" alt="码如云客服" src="/images/customer-service-151.png"/>
+        <img :class="$style.qrImage" alt="国脉资产云客服" src="/images/customer-service-151.png"/>
         <div :class="$style.text">{{ message }}</div>
       </div>
     </el-popover>

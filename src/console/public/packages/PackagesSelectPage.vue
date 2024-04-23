@@ -683,10 +683,10 @@
         <tr :class="$style.noTopBorder">
           <th :class="[$style.featureNameCell,$style.noTopBorder]">
             <el-tooltip :popperClass="$style.tooltip"
-                        content="手机端页面隐藏码如云Logo"
+                        content="手机端页面隐藏国脉资产云Logo"
                         effect="dark"
                         placement="right">
-              <div :class="$style.featureName">手机端页面隐藏码如云Logo</div>
+              <div :class="$style.featureName">手机端页面隐藏国脉资产云Logo</div>
             </el-tooltip>
           </th>
           <td v-for="plan in plans" :key="plan.type" :class="[$style.featureEnableCell,$style.noTopBorder]">
@@ -720,7 +720,7 @@
         <tr :class="$style.noTopBorder">
           <th :class="[$style.featureNameCell,$style.noTopBorder]">
             <el-tooltip :popperClass="$style.tooltip"
-                        content="通过调用码如云开放平台的API以完成数据获取或写入"
+                        content="通过调用国脉资产云开放平台的API以完成数据获取或写入"
                         effect="dark"
                         placement="right">
               <div :class="$style.featureName">API集成</div>
@@ -736,7 +736,7 @@
         <tr :class="$style.noTopBorder">
           <th :class="[$style.featureNameCell,$style.noTopBorder]">
             <el-tooltip :popperClass="$style.tooltip"
-                        content="在某些事件发生时，码如云自动将事件数据通过Webhook方式推送到您自己的IT系统，包括实例和提交相关事件。每个应用可以但单独进行Webhook设置"
+                        content="在某些事件发生时，国脉资产云自动将事件数据通过Webhook方式推送到您自己的IT系统，包括实例和提交相关事件。每个应用可以但单独进行Webhook设置"
                         effect="dark"
                         placement="right">
               <div :class="$style.featureName">Webhook集成</div>
@@ -780,7 +780,7 @@
             <div :class="$style.faqItem">
               <div :class="$style.faqName">是否有折扣？该选哪个版本？</div>
               <div :class="$style.faqContent">
-                当前购买可享受9.5折优惠。对于多数客户来说，码如云推荐购买【高级版】，因为高级版除了不包含技术集成功能外，已经包含了系统的所有其他功能。而对于需要做技术对接或者有大量数据需求的客户，推荐购买更高的版本。
+                当前购买可享受9.5折优惠。对于多数客户来说，国脉资产云推荐购买【高级版】，因为高级版除了不包含技术集成功能外，已经包含了系统的所有其他功能。而对于需要做技术对接或者有大量数据需求的客户，推荐购买更高的版本。
               </div>
             </div>
           </el-col>
@@ -819,7 +819,7 @@
               <div :class="$style.faqContent">当前支持对银行公转账和微信转账支付；可提供增值税普通发票或专用发票，请在<a
                   class="primaryColoredTextLink"
                   href="/management/orders"
-                  target="_blank">订单管理</a>页面自行申请；码如云当前为小规模纳税人，无法提供高于3%的增值税发票，不过作为对您的补偿，我们可为您免费延长相应的套餐服务时长，具体请联系
+                  target="_blank">订单管理</a>页面自行申请；国脉资产云当前为小规模纳税人，无法提供高于3%的增值税发票，不过作为对您的补偿，我们可为您免费延长相应的套餐服务时长，具体请联系
                 <MryCustomerServiceText></MryCustomerServiceText>
                 。
               </div>
@@ -828,9 +828,9 @@
 
           <el-col :span="8">
             <div :class="$style.faqItem">
-              <div :class="$style.faqName">码如云如何保证数据安全？</div>
+              <div :class="$style.faqName">国脉资产云如何保证数据安全？</div>
               <div :class="$style.faqContent">
-                码如云采用阿里云服务器，在数据安全方面包含以下措施：分布式服务器集群、数据传输加密、数据自动备份和数据冗余存储等。
+                国脉资产云采用阿里云服务器，在数据安全方面包含以下措施：分布式服务器集群、数据传输加密、数据自动备份和数据冗余存储等。
               </div>
             </div>
           </el-col>
@@ -906,7 +906,7 @@ export default {
   },
 
   mounted() {
-    document.title = '码如云服务套餐';
+    document.title = '国脉资产云服务套餐';
   },
 
   computed: {

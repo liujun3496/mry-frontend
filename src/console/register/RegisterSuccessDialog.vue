@@ -12,7 +12,7 @@
         <path :class="$style.checkmark__check" d="M14.1 27.2l7.1 7.2 16.7-16.8" fill="none"/>
       </svg>
 
-      <span :class="$style.successText">恭喜您成功注册码如云，现在您可以登录并使用码如云了！</span>
+      <span :class="$style.successText">恭喜您成功注册国脉资产云，现在您可以登录并使用国脉资产云了！</span>
     </div>
 
     <div slot="footer">

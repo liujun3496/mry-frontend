@@ -1,10 +1,10 @@
 <template>
   <el-popover :trigger="trigger">
     <el-button slot="reference" :class="$style.textButton" type="text">
-      码如云客服
+      国脉资产云客服
     </el-button>
     <div :class="$style.content">
-      <img :class="$style.qrImage" alt="码如云客服" src="/images/customer-service-151.png"/>
+      <img :class="$style.qrImage" alt="国脉资产云客服" src="/images/customer-service-151.png"/>
       <div :class="$style.text">{{ message }}</div>
     </div>
   </el-popover>

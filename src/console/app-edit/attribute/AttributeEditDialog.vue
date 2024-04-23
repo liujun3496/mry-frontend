@@ -96,7 +96,7 @@
 
         <el-form-item ref="manual-input-item"
                       :class="$style.checkboxFormItem"
-                      :title="`勾选后，可以从${instanceDesignation}的基本信息编辑页面进行填写，否则只能通过调用码如云API的方式填写`"
+                      :title="`勾选后，可以从${instanceDesignation}的基本信息编辑页面进行填写，否则只能通过调用国脉资产云API的方式填写`"
                       prop="manualInput">
           <el-checkbox v-model="internalAttribute.manualInput" size="medium">
             可在{{ instanceDesignation }}的基本信息编辑页面进行填写

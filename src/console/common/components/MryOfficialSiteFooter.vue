@@ -77,7 +77,7 @@
       </div>
 
       <div :class="$style.footerBottomLinksContainer">
-        <a :class="$style.footerTextLink" class=" marginRight15" href="//www.mryqr.com">成都码如云信息技术有限公司</a>
+        <a :class="$style.footerTextLink" class=" marginRight15" href="//www.mryqr.com">成都国脉资产云信息技术有限公司</a>
         <a :class="$style.footerTextLink" class=" marginLeft15 marginRight15"
            href="https://beian.miit.gov.cn/"
            target="_blank">

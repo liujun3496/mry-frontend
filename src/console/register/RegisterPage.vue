@@ -4,7 +4,7 @@
 
     <section :class="$style.registerSection">
       <div :class="$style.registerHeader">
-        注册码如云
+        注册国脉资产云
       </div>
 
       <el-form ref="theForm"
@@ -186,7 +186,7 @@ export default {
 
   mounted() {
     this.validated = false;
-    document.title = '注册码如云';
+    document.title = '注册国脉资产云';
     if (isSubdomainCustomized()) {
       location.replace(replaceCurrentUrlWithSubdomain('console'));
     }

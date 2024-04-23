@@ -157,7 +157,7 @@ export default {
   },
 
   created() {
-    document.title = '码如云应用模板库';
+    document.title = '国脉资产云应用模板库';
 
     return this.listTemplates();
   },

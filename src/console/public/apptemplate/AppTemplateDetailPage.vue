@@ -188,7 +188,7 @@ export default {
   created() {
     return appTemplateApi.fetchAppTemplateDetail(this.templateId).then(response => {
       this.templateDetail = response.data;
-      document.title = this.templateDetail.name + ' - 码如云应用模板库';
+      document.title = this.templateDetail.name + ' - 国脉资产云应用模板库';
     });
   },
 

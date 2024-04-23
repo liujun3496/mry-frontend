@@ -147,7 +147,7 @@ export default {
           this.ready = true;
         })
       } else {
-        document.title = "登录 - 码如云";
+        document.title = "登录 - 国脉资产云";
         this.ready = true;
       }
     });

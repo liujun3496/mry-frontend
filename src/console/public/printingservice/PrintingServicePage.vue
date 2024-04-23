@@ -1,12 +1,12 @@
 <template>
   <div :class="$style.wrapper">
     <section :class="$style.headerSection">
-      <div :class="$style.sectionTitle">码如云印刷服务</div>
+      <div :class="$style.sectionTitle">国脉资产云印刷服务</div>
       <div :class="$style.headerSubTitle">
         <div :class="$style.headerSubTitleRow"> 对于有<a
             class="primaryColoredTextLink"
             href="//docs.mryqr.com/console-app-operation/plate-printing/"
-            target="_blank">码牌印刷</a>需求的应用场景，用户除了可以自行印制码牌之外，还可以使用码如云提供的码牌印刷服务。
+            target="_blank">码牌印刷</a>需求的应用场景，用户除了可以自行印制码牌之外，还可以使用国脉资产云提供的码牌印刷服务。
         </div>
         <div :class="$style.headerSubTitleRow"> 您只需要在线下单，之后我们将把制作好的码牌邮寄给您。</div>
       </div>
@@ -88,7 +88,7 @@
             <div :class="$style.faqItem">
               <div :class="$style.faqName">码牌图片如何在普通打印机中打印？</div>
               <div :class="$style.faqContent">
-                您可以使用码如云提供的
+                您可以使用国脉资产云提供的
                 <el-button class="noPadding" type="text" @click="openImagesToPdfConverter">码牌图片转PDF工具</el-button>
                 将多张码牌图片转为PDF文件，然后即可使用普通打印机打印了。
               </div>
@@ -148,7 +148,7 @@ export default {
   },
 
   mounted() {
-    document.title = '码如云印刷服务';
+    document.title = '国脉资产云印刷服务';
 
     return printingProductApi.listPrintingProducts().then(response => {
       this.products = response.data;

@@ -143,7 +143,7 @@ export default {
         this.ready = true;
       })
     } else {
-      document.title = `找回密码 - 码如云`;
+      document.title = `找回密码 - 国脉资产云`;
       this.ready = true;
     }
   },

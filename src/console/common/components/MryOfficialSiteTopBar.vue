@@ -3,8 +3,8 @@
     <div :class="$style.content">
       <div :class="$style.leftPart">
         <a :class="$style.logo" href="//www.mryqr.com">
-          <img :class="$style.logoImage" :src="logoImageUrl" alt="码如云"/>
-          码如云
+          <img :class="$style.logoImage" :src="logoImageUrl" alt="国脉资产云"/>
+          国脉资产云
         </a>
 
         <a :class="$style.link" href="//www.mryqr.com">产品简介</a>

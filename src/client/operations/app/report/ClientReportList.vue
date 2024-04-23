@@ -50,7 +50,7 @@
     </template>
     <template v-else>
       <div :class="$style.packageNotAllowedText">
-        您当前的套餐版本过低或者已经过期，无法使用统计报表功能，请联系您的系统管理员在码如云官网进行套餐升级或续费。
+        您当前的套餐版本过低或者已经过期，无法使用统计报表功能，请联系您的系统管理员在国脉资产云官网进行套餐升级或续费。
         <el-button :class="$style.backButton" size="medium" type="primary" @click="goToUpperLink">返回</el-button>
       </div>
     </template>

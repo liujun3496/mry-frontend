@@ -32,7 +32,7 @@ export default {
     CUSTOM_SUBDOMAIN: '自定义子域名',
     CUSTOM_LOGIN_BACKGROUND: '自定义登录页面背景',
     CUSTOM_LOGO: '运营端自定义品牌Logo',
-    HIDE_BOTTOM_MRY_LOGO: '手机端页面隐藏码如云Logo',
+    HIDE_BOTTOM_MRY_LOGO: '手机端页面隐藏国脉资产云Logo',
     HIDE_ADS: '去除广告',
 
     //开发集成

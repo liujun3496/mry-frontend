@@ -2,8 +2,8 @@
   <div :class="$style.wrapper">
     <div :class="$style.topBar">
       <a :class="$style.logo" href="//www.mryqr.com">
-        <img :class="$style.logoImage" :src="logoImageUrl" alt="码如云"/>
-        码如云
+        <img :class="$style.logoImage" :src="logoImageUrl" alt="国脉资产云"/>
+        国脉资产云
       </a>
       <span :class="$style.counterText">收银台</span>
     </div>
@@ -56,10 +56,10 @@
             <div :class="$style.transferTitle">线下微信转账</div>
             <section :class="$style.transferSection">
               <div :class="$style.transferPayTip">
-                请用手机微信扫描以下二维码向码如云完成微信转账；为安全起见，我们会主动向您提供本订单编号（{{ orderInfo.id }}），如果对应不上，请不要转账。
+                请用手机微信扫描以下二维码向国脉资产云完成微信转账；为安全起见，我们会主动向您提供本订单编号（{{ orderInfo.id }}），如果对应不上，请不要转账。
               </div>
-              <img :class="$style.wxContactQr" alt="码如云客服" src="/images/customer-service-151.png"/>
-              <div :class="$style.wxTransferNote">微信扫码，联系码如云客服，完成转账</div>
+              <img :class="$style.wxContactQr" alt="国脉资产云客服" src="/images/customer-service-151.png"/>
+              <div :class="$style.wxTransferNote">微信扫码，联系国脉资产云客服，完成转账</div>
             </section>
           </section>
 
@@ -71,7 +71,7 @@
 
               <div :class="$style.bankTransferRow">
                 <span :class="$style.bankTransferRowTitle">银行户名：</span>
-                <span :class="$style.bankTransferRowValue">成都码如云信息技术有限公司</span>
+                <span :class="$style.bankTransferRowValue">成都国脉资产云信息技术有限公司</span>
               </div>
 
               <div :class="$style.bankTransferRow">
@@ -233,7 +233,7 @@ export default {
           scale: HTML2CANVAS_SCALE,
         }).then(canvas => {
           canvas.toBlob(function (blob) {
-            saveAs(blob, `码如云订单(${_this.orderInfo.id}).png`);
+            saveAs(blob, `国脉资产云订单(${_this.orderInfo.id}).png`);
           });
         });
       });

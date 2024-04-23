@@ -24,7 +24,7 @@ export default {
   },
 
   created() {
-    document.title = '码如云 - 二维码场景应用解决方案';
+    document.title = '国脉资产云 - 二维码场景应用解决方案';
 
     if (isSubdomainCustomized()) {
       location.replace(replaceCurrentUrlWithSubdomain('console'));

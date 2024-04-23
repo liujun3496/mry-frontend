@@ -112,7 +112,7 @@
               @click="gotoMryOfficialSite">
         <span :class="$style.buttonRowLeftTitle">
           <i :class="$style.buttonRowIcon" class="majoricon i-home"/>
-          码如云官网
+          国脉资产云官网
         </span>
         <i :class="$style.buttonRowRightArrow" class="majoricon i-right"/>
       </button>

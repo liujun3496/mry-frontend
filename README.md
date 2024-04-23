@@ -1,15 +1,15 @@
 ## 项目信息
-- **码如云**是一个基于二维码的一物一码管理平台，可以为每一件“物品”生成一个二维码，手机扫码即可查看物品信息并发起相关业务操作，操作内容可由你自己定义，典型的应用场景包括固定资产管理、设备巡检以及物品标签等；
-- 在技术上，码如云是一个无代码平台，全程采用DDD、整洁架构和事件驱动架构思想完成开发，更多详情可参考笔者的[DDD落地文章系列](https://docs.mryqr.com/ddd-introduction/)；
+- **国脉资产云**是一个基于二维码的一物一码管理平台，可以为每一件“物品”生成一个二维码，手机扫码即可查看物品信息并发起相关业务操作，操作内容可由你自己定义，典型的应用场景包括固定资产管理、设备巡检以及物品标签等；
+- 在技术上，国脉资产云是一个无代码平台，全程采用DDD、整洁架构和事件驱动架构思想完成开发，更多详情可参考笔者的[DDD落地文章系列](https://docs.mryqr.com/ddd-introduction/)；
 - 技术栈：Vue 2, Webpack 4, Axios 0.24, Element UI 2等；
-- 本代码库为码如云前端代码，与之匹配的后端代码可访问[码如云后端代码库](https://github.com/mryqr-com/mry-backend)。
+- 本代码库为国脉资产云前端代码，与之匹配的后端代码可访问[国脉资产云后端代码库](https://github.com/mryqr-com/mry-backend)。
 
 
 ## 如何访问
 - 访问地址：[https://www.mryqr.com](https://www.mryqr.com)。
 
 
-## 为什么开发码如云
+## 为什么开发国脉资产云
 - 为了开发出一款能让自己满意的软件；
 - 为了证明DDD能够真实落地；
 - 为了实践[整洁架构](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)；
@@ -31,10 +31,10 @@
 - 命令行切换到代码跟目录；
 - 运行 `npm install` 安装依赖；
 - 运行`./local-run.sh`，此命令用于启动前端；
-- 下载[码如云后端代码](https://github.com/mryqr-com/mry-backend)到本地，命令行切换到后端代码根目录，执行`./local-run.sh`，此命令用于启动后端；
+- 下载[国脉资产云后端代码](https://github.com/mryqr-com/mry-backend)到本地，命令行切换到后端代码根目录，执行`./local-run.sh`，此命令用于启动后端；
 - 访问电脑端：[http://console.local.mryqr.com](http://console.local.mryqr.com)，默认用户名`15111111111`，密码`11111111`；
 - 访问手机端：[http://m.local.mryqr.com](http://m.local.mryqr.com)，默认用户名`15111111111`，密码`11111111`；
-- 请不要在同一个浏览器中同时访问本地环境（`http://console.local.mryqr.com`）和码如云在线环境（`https://www.mryqr.com`），因为有可能导致本地环境无法访问；
+- 请不要在同一个浏览器中同时访问本地环境（`http://console.local.mryqr.com`）和国脉资产云在线环境（`https://www.mryqr.com`），因为有可能导致本地环境无法访问；
 
 ## 关于软件协议
 本代码库在遵循GPL-3.0协议的基础上，增加了以下协议条款：

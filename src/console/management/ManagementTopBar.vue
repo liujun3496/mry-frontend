@@ -5,22 +5,22 @@
       <HelpDocLinker v-if="helpUrl" :url="helpUrl" class="baseLineAlign"></HelpDocLinker>
     </div>
     <section :class="$style.rightSection">
-      <MryCustomerServiceEntry :class="$style.rightSectionIcon"
+      <!--MryCustomerServiceEntry :class="$style.rightSectionIcon"
                                :iconSize="16"
                                :textSize="12"
                                color="#909399">
-      </MryCustomerServiceEntry>
+      </MryCustomerServiceEntry-->
 
-      <MryDocumentationEntry :class="$style.rightSectionIcon"
+      <!--MryDocumentationEntry :class="$style.rightSectionIcon"
                              :iconSize="16"
                              :textSize="12"
                              color="#909399">
-      </MryDocumentationEntry>
+      </MryDocumentationEntry-->
 
-      <MryMobileEntry :class="$style.rightSectionIcon"
+      <!--MryMobileEntry :class="$style.rightSectionIcon"
                       :iconSize="16"
                       :textSize="12">
-      </MryMobileEntry>
+      </MryMobileEntry-->
       <Profile></Profile>
     </section>
   </div>

@@ -841,11 +841,11 @@
 
     <MryOfficialSiteFooter></MryOfficialSiteFooter>
 
-    <MryCustomerServiceEntry :class="$style.customerService"
+    <!--MryCustomerServiceEntry :class="$style.customerService"
                              :iconSize="24"
                              :textSize="13"
                              trigger="hover">
-    </MryCustomerServiceEntry>
+    </MryCustomerServiceEntry-->
 
     <PurchasePackageDialog :allPlanTypes="allPlanTypes"
                            :initDuration="initDuration"

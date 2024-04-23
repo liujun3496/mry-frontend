@@ -117,7 +117,7 @@
         </div>
 
         <div :class="$style.editHeaderRight">
-          <MryCustomerServiceEntry :class="$style.rightSectionIcon"
+          <!--MryCustomerServiceEntry :class="$style.rightSectionIcon"
                                    :iconSize="16"
                                    :textSize="12"
                                    color="#909399">
@@ -132,7 +132,7 @@
           <MryMobileEntry :class="$style.rightSectionIcon"
                           :iconSize="16"
                           :textSize="12">
-          </MryMobileEntry>
+          </MryMobileEntry-->
 
           <el-button :class="$style.appOpsButton"
                      icon="el-icon-s-platform"

@@ -49,7 +49,7 @@
     </div>
 
     <section :class="$style.rightSection">
-      <MryCustomerServiceEntry :class="$style.rightSectionIcon"
+      <!--MryCustomerServiceEntry :class="$style.rightSectionIcon"
                                :iconSize="16"
                                :textSize="12"
                                color="#909399">
@@ -64,7 +64,7 @@
       <MryMobileEntry :class="$style.rightSectionIcon"
                       :iconSize="16"
                       :textSize="12">
-      </MryMobileEntry>
+      </MryMobileEntry-->
       <Profile></Profile>
     </section>
   </div>

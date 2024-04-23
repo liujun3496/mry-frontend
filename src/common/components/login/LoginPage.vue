@@ -25,14 +25,14 @@
       </VerificationCodeLogin>
 
       <section :class="$style.bottomSection">
-        <span v-if="loginType==='MobileOrEmailLogin'"
+        <!--span v-if="loginType==='MobileOrEmailLogin'"
               :class="[$style.textButton]"
               class="underLinedLink"
               title="通过发往手机或邮箱的验证码进行登录"
               type="text"
               @click="loginType='VerificationCodeLogin'">
           验证码登录
-        </span>
+        </span-->
 
         <span v-if="loginType==='VerificationCodeLogin'"
               :class="[$style.textButton]"
@@ -43,13 +43,13 @@
           密码登录
         </span>
 
-        <span v-if="!wxIdInfo && !isInWx()"
+        <!--span v-if="!wxIdInfo && !isInWx()"
               :class="[$style.textButton,$style.pcWxLogin]"
               class="underLinedLink"
               title="用手机微信扫描二维码登录"
               type="text"
-              @click="startPcWxLogin">
-          <img :class="$style.wxLogo" :src="wxLogoUrl" alt="微信登录">&nbsp;微信扫码登录
+              @click="startPcWxLogin"-->
+          <!--img :class="$style.wxLogo" :src="wxLogoUrl" alt="微信登录">&nbsp;微信扫码登录-->
         </span>
 
         <span v-if="loginType==='MobileOrEmailLogin'"

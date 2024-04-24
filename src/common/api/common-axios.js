@@ -18,6 +18,7 @@ function apiBaseUrl() {
     if (!isCurrentUsingDomainName()) {
         return location.origin;
     }
+    //nothing
     alert(location.origin.replace(/(:\/\/\w+\.)/, "://api."));
     return location.origin.replace(/(:\/\/\w+\.)/, "://api.")
 }

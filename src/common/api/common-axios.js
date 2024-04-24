@@ -19,7 +19,7 @@ function apiBaseUrl() {
         return location.origin;
     }
     //nothing
-    return location.origin.replace(/(:\/\/\w+\.)/, "://api.")+':8088/'
+    return location.origin.replace(/(:\/\/\w+\.)/, "://api.")
 }
 
 const axiosInstance = axios.create({

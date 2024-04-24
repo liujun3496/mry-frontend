@@ -24,14 +24,15 @@ const webpackConfig = merge(baseWebpackConfig, {
             '/': {
                 target: 'http://172.29.7.126:8080',
                 bypass: function (req, res, proxyOptions) {
-                    alert(req.headers.host);
+
                     if (req.headers.host === 'console.local.mryqr.com') {
                         return '/console-index.html';
+                    }else if (req.headers.host === 'm.local.mryqr.com') {
+                        return '/client-index.html';
+                    }else{
+                        console.log(req.headers.host);
                     }
 
-                    if (req.headers.host === 'm.local.mryqr.com') {
-                        return '/client-index.html';
-                    }
                 },
             },
         },

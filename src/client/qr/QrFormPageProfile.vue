@@ -5,9 +5,9 @@
         <RoundButton><i class="majoricon i-appstore-fill"></i></RoundButton>
       </span>
       <el-dropdown-menu slot="dropdown">
-        <el-dropdown-item :command="{command:'startLogin',parameters:null}">
+        <!--el-dropdown-item :command="{command:'startLogin',parameters:null}">
           <i class="majoricon i-user"></i>登录
-        </el-dropdown-item>
+        </el-dropdown-item-->
 
          <el-dropdown-item v-if="canViewGeolocation" :command="{command:'viewGeolocation',parameters:null}">
           <i class="majoricon i-location"></i>查看定位
@@ -53,9 +53,9 @@
             <i class="majoricon i-home"></i>应用首页
           </el-dropdown-item>
 
-          <el-dropdown-item :command="{command:'quit',parameters:null}">
+          <!--el-dropdown-item :command="{command:'quit',parameters:null}">
             <i class="majoricon i-logout"></i>退出（{{ memberName }}）
-          </el-dropdown-item>
+          </el-dropdown-item-->
         </template>
 
         <el-dropdown-item :command="{command:'reportOffence',parameters:null}">

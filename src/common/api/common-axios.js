@@ -20,7 +20,7 @@ function apiBaseUrl() {
     }
     //nothing
     alert(location.origin.replace(/(:\/\/\w+\.)/, "://api."));
-    return location.origin.replace(/(:\/\/\w+\.)/, "://api.")
+    return location.origin.replace(/(:\/\/\w+\.)/, "://api.")+':8088'
 }
 
 const axiosInstance = axios.create({

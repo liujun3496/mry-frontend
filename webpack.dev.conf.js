@@ -26,8 +26,10 @@ const webpackConfig = merge(baseWebpackConfig, {
                 bypass: function (req, res, proxyOptions) {
 
                     if (req.headers.host === 'console.local.mryqr.com') {
+                        console.log(req.headers.host);
                         return '/console-index.html';
                     }else if (req.headers.host === 'm.local.mryqr.com') {
+                        console.log(req.headers.host);
                         return '/client-index.html';
                     }else{
                         console.log(req.headers.host);

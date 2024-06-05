@@ -6,6 +6,25 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
+const TerserPlugin = require('terser-webpack-plugin');
+
+module.exports = {
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin({
+            terserOptions: {
+                compress: {
+                    drop_console: true, // 移除console语句
+                },
+                output: {
+                    comments: false, // 移除注释
+                },
+            },
+            extractComments: false, // 是否将注释提取到单独的文件中
+        })],
+    },
+};
+
 module.exports = {
     entry: {
         'console': './src/console/console-index.js',

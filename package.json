@@ -80,6 +80,7 @@
     "browserslist": "4.18.1",
     "clean-webpack-plugin": "3.0.0",
     "copy-webpack-plugin": "5.1.1",
+    "terser-webpack-plugin": "1.4.5",
     "css-loader": "3.4.2",
     "eslint": "6.8.0",
     "eslint-loader": "3.0.3",

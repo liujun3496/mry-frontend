@@ -26,6 +26,7 @@ const webpackConfig = merge(baseWebpackConfig, {
                 target: 'http://172.29.7.126:8080',
                 bypass: function (req, res, proxyOptions) {
 
+                    alert(req.headers.host);
                     if (req.headers.host === 'console.local.mryqr.com:8088') {
                         console.log(req.headers.host);
                         return '/console-index.html';

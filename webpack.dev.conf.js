@@ -20,7 +20,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         inline: true,//do not use iframe for the page, true is default
         //open: 'google chrome',//open browser after dev server starts
         openPage: '',
-        port: 8088,//80 endpoint2
+        port: 8087,//80 endpoint2
         proxy: {
             '/': {
                 target: 'http://172.29.7.126:8080',

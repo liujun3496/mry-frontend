@@ -1,5 +1,5 @@
 <template>
-  <icon :class="$style.wrapper" :icon="['far','question-circle']" title="帮助文档" @click="onClick"/>
+  <icon :class="$style.wrapper" :icon="['far','question-circle']" />
 </template>
 
 <script>

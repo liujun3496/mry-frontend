@@ -1098,7 +1098,7 @@
 }
 
 .i-question-circle:before {
-    content: "\e78c";
+    /*content: "\e78c";*/
 }
 
 .i-minus:before {
@@ -1366,7 +1366,7 @@
 }
 
 .i-question-circle-fill:before {
-    content: "\e8a2";
+    /*content: "\e8a2";*/
 }
 
 .i-login:before {

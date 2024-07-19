@@ -10,7 +10,7 @@ import playTypes from '@/common/utils/plan-types';
 import uuid from "short-uuid";
 
 export function goToMryOfficialWebsite() {
-    window.open("//www.mryqr.com", '_blank');
+    window.open("//console.local.mryqr.com:8088", '_blank');
 }
 
 //比如，对于www.dev.mryqr.com，返回mryqr.com，用于设置cookie等处

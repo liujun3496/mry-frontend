@@ -6,7 +6,7 @@
 
 
 ## 如何访问
-- 访问地址：[https://www.mryqr.com](https://www.mryqr.com)。
+- 访问地址：[https://console.local.mryqr.com:8088](https://console.local.mryqr.com:8088)。
 
 
 ## 为什么开发国脉资产云
@@ -34,7 +34,7 @@
 - 下载[国脉资产云后端代码](https://github.com/mryqr-com/mry-backend)到本地，命令行切换到后端代码根目录，执行`./local-run.sh`，此命令用于启动后端；
 - 访问电脑端：[http://console.local.mryqr.com](http://console.local.mryqr.com)，默认用户名`15111111111`，密码`11111111`；
 - 访问手机端：[http://m.local.mryqr.com](http://m.local.mryqr.com)，默认用户名`15111111111`，密码`11111111`；
-- 请不要在同一个浏览器中同时访问本地环境（`http://console.local.mryqr.com`）和国脉资产云在线环境（`https://www.mryqr.com`），因为有可能导致本地环境无法访问；
+- 请不要在同一个浏览器中同时访问本地环境（`http://console.local.mryqr.com`）和国脉资产云在线环境（`https://console.local.mryqr.com:8088`），因为有可能导致本地环境无法访问；
 
 ## 关于软件协议
 本代码库在遵循GPL-3.0协议的基础上，增加了以下协议条款：

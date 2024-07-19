@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.wrapper">
     <div :class="$style.topBar">
-      <a :class="$style.logo" href="//www.mryqr.com">
+      <a :class="$style.logo" href="//console.local.mryqr.com:8088">
         <img :class="$style.logoImage" :src="logoImageUrl" alt="国脉资产云"/>
         国脉资产云
       </a>

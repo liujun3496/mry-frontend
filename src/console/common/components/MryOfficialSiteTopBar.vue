@@ -2,12 +2,12 @@
   <div :class="$style.wrapper">
     <div :class="$style.content">
       <div :class="$style.leftPart">
-        <a :class="$style.logo" href="//www.mryqr.com">
+        <a :class="$style.logo" href="//console.local.mryqr.com:8088">
           <img :class="$style.logoImage" :src="logoImageUrl" alt="国脉资产云"/>
           国脉资产云
         </a>
 
-        <a :class="$style.link" href="//www.mryqr.com">产品简介</a>
+        <a :class="$style.link" href="//console.local.mryqr.com:8088">产品简介</a>
         <a :class="$style.link" href="/public/packages" target="_blank">服务价格</a>
         <a :class="$style.link" href="/public/app-templates" target="_blank">应用模板</a>
         <a :class="$style.link" href="/public/printing-service" target="_blank">印刷服务</a>

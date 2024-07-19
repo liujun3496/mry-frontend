@@ -107,7 +107,7 @@
                             && $v.links.$each.$iter[index].url.$invalid }]"
                           :maxLength="1024"
                           :spellcheck="false"
-                          placeholder="例如：https://www.mryqr.com"
+                          placeholder="例如：https://console.local.mryqr.com:8088"
                           size="small"
                           type="textarea"
                           @input="$v.links.$each.$iter[index].url.$touch">
